@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="modal">
+        <button onclick="closeModal()">
+            <span class="bi-x-lg"></span>
+        </button>
+
+        <img src="https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg" alt="" width="700" height="500">
+        
+        <span> a modal image </span>
+    </div>
+
+    <img src="https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg" alt="" width="200" height="200"
+        onclick="openModal(this,'the tetons')">
+    
+    <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg" alt=""
+        width="200" height="200" onclick="openModal(this,'taj mahal')">
+    
+    <img 
+        src="https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=" 
+    alt="" width="200" height="200" onclick="openModal(this,'eastern bluebirds')">
+
+    <span>
+        click on an image thumbnail to view modal effect
+    </span>
+
+    <script src="./script.js"></script>
+</body>
+</html>

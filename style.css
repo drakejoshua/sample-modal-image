@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 20px;
+}
+
+div#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: black;
+    transition: 1s;
+    overflow: hidden;
+}
+
+div#modal > button {
+    margin-left: 90%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+div#modal > span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+div#modal > img {
+    display: block;
+    margin: 0px auto 40px;
+}
+
+body > span {
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
